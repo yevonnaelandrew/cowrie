@@ -12,8 +12,8 @@ services:
       context: context
       dockerfile: Dockerfile
     ports:
-      - "2222:2222"
-      - "2223:2223"
+      - "22:22"
+      - "23:23"
     volumes:
       - cowrie-etc:/cowrie/cowrie-git/etc
       - cowrie-var:/cowrie/cowrie-git/var
