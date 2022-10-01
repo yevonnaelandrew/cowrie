@@ -119,4 +119,4 @@ ENV PYTHONUNBUFFERED=1
 ENTRYPOINT [ "/cowrie/cowrie-env/bin/python3" ]
 CMD [ "/cowrie/cowrie-env/bin/twistd", "-n", "--umask=0022", "--pidfile=", "cowrie" ]
 
-EXPOSE 2222 2223
+EXPOSE 22 23
